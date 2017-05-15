@@ -19,7 +19,7 @@ function Submit() {
         }),
         success: function (response) {
             if (response.success) {
-                alert(response.message);
+                //alert(response.message);
             }
         }
     });
